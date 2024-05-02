@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    font-family: 'PT Sans', sans-serif;}
+nav{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    
+}
+#logo{
+    margin: 20px;
+    padding: 20px;
+    margin-right: 500px;
+    
+}
+nav ul{
+    display: flex;
+    margin-left: 500px;
+}
+nav ul li a{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+nav ul li a:hover{
+color:rgba(228, 223, 223, 0.473) ;
+}
+
+.main{
+   
+    margin: 0px;
+    width: 100%;
+
+    position: absolute;
+    top: 400px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.aa  {
+    display: flex;
+    flex-direction: column;
+}
+
+.aa li a{
+    
+    text-decoration: none;
+    color: rgb(248, 248, 130);
+ 
+    font-size: xx-large;
+   
+}
+.aa li a:hover{
+color: rgb(88, 85, 85);
+}
+.carousel-inner img{
+    height: 850px;
+}
+footer{
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+.camp1{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.camp2{
+    width: 100%;
+    text-align: start;
+    margin-bottom: 100px;
+    margin-left: 380px;
+
+}
+.campaign{
+    height: 378px;
+    width: 378px;
+}
+.zudio{
+    width: 100%;
+    text-align: center;
+    
+}
+.zz{
+    height: 378px;
+    width: 378px;  
+    align-self: center;
+    margin: 5px;
+}
+.quote{
+    height: 839px;
+    text-align: center;
+    padding: 100px;
+    
+
+}
+.quote a{
+    text-decoration: none;
+    color: black;
+}
+.quote a h1,.quote h1{
+    font-weight: 300;
+    font-size: 52px;
+    text-decoration: none;
+    margin-top: 100px;
+    color: black;
+}
+.quote h1:hover{
+    color: rgb(180, 173, 173);
+
+
+}
+.quote a h1:hover{
+    color: rgb(180, 173, 173);
+}
+.quote h2{
+    margin-bottom: 100px;
+}
